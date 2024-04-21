@@ -1,8 +1,8 @@
-export function Name() { return "Keychron V2 QMK Keyboard"; }
+export function Name() { return "Keychron V2 MAX QMK Keyboard"; }
 export function Version() { return "1.1.8"; }
 export function VendorId() { return 0x3434; }
-export function ProductId() { return [0x0920]; }
-export function Publisher() { return "WhirlwindFX"; }
+export function ProductId() { return [0x0920,0xd030]; }
+export function Publisher() { return "TTTTWR"; }
 export function Documentation(){ return "qmk/srgbmods-qmk-firmware"; }
 export function Size() { return [15, 5]; }
 export function DefaultPosition(){return [10, 100]; }
